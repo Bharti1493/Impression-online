@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ImpressionOnlinePackage.copy.OpenBrowser">
+      <class name="ImpressionOnlinePackage.ContactForm">
         <methods>
           <include name="browser"/>
+          <include name="HoverOnProducts"/>
         </methods>
-      </class> <!-- ImpressionOnlinePackage.copy.OpenBrowser -->
+      </class> <!-- ImpressionOnlinePackage.ContactForm -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
